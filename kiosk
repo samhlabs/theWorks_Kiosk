@@ -1,0 +1,23 @@
+#! /bin/sh
+
+xset s off		#no screensaver
+xset -dpms		#no energy star
+xset s noblank		#no blank for video
+
+while true; do
+
+  #clean up previously running apps, nice at first
+  killall -TERM kweb 2>/dev/null;
+  killall -TERM matchbox-window-manager 2>/dev/null;
+  #then scrub those bitches up if they aren't playing nice
+  killall -9 kweb 2>/dev/null;
+  killall -9 matchbox-window-manager 2>/dev/null;
+
+  #get rid of cursor when not being used
+  unclutter -root -idle 0 &
+
+  #Launch window manager and kweb browser
+  matchbox-window-manager &
+  kweb -JKHCRA+-zbhrqfpoklgtjneduwxy file:///media/PAGE/index.html
+  sleep 2s;
+done
