@@ -19,6 +19,6 @@ while true; do
 
   #Launch window manager and kweb browser
   matchbox-window-manager &
-  kweb -JKHCRA+-zbhrqfpoklgtjneduwxy http://kiosk.lineshaft
+  kweb -JKHCRA+-zbhrqfpoklgtjneduwxy http://kiosk
   sleep 2s;
 done
