@@ -1,6 +1,5 @@
 #! /bin/sh
 
-#TESTING GIT
 
 xset s off		#no screensaver
 xset -dpms		#no energy star
