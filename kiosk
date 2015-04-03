@@ -18,6 +18,6 @@ while true; do
 
   #Launch window manager and kweb browser
   matchbox-window-manager &
-  kweb -JKHCRA+-zbhrqfpoklgtjneduwxy file:///media/PAGE/index.html
+  kweb -JKHCRA+-zbhrqfpoklgtjneduwxy file:///var/www/kiosk/index.html
   sleep 2s;
 done
