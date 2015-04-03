@@ -1,5 +1,7 @@
 #! /bin/sh
 
+#TESTING GIT
+
 xset s off		#no screensaver
 xset -dpms		#no energy star
 xset s noblank		#no blank for video
