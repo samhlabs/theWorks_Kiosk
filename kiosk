@@ -1,5 +1,6 @@
 #! /bin/sh
 
+#TEST THIS SHIT
 
 xset s off		#no screensaver
 xset -dpms		#no energy star
