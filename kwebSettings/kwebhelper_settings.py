@@ -132,7 +132,7 @@ screenmode = 'auto'
 # to 'auto' (for automatic detection of the aspect ration) or to one of those:
 # '4:3','16:9','16:10','2.21:1','2.35:1','2.39:1' to play in window
 # (you can also add one additional value here):
-videomode = 'full'
+videomode = 'auto'
 # Set the following to "True" for simple mode (no window resizing, moving etc. while playing video);
 # must be set to True for older omxplayer versions
 #GARRETT WAS HERE!
