@@ -103,8 +103,8 @@ useVLC = False
 useAudioplayer = True
 # Use GUI for playing videos
 #GARRETT WAS HERE!
-#useVideoplayer = False
-useVideoplayer = True
+useVideoplayer = False
+#useVideoplayer = True
 #WHEN useVideoplayer IS SET TO TRUE FOR SOME REASON IT DOES NOT PLAY VIDEO
 # Volume setting when starting omxplayerGUI ranging from -20 to 4 ( -60 to +12 db)
 defaultaudiovolume = 0
@@ -126,13 +126,13 @@ lwidth = 40
 videoheight = 288
 # Default 'Lines:' mode, must be one of those: 'min','max', 'full'
 #GARRETT WAS HERE!
-screenmode = 'min'
+screenmode = 'auto'
 #screenmode = 'min'
 # Default video mode: set this to 'full' or 'refresh' for full screen,
 # to 'auto' (for automatic detection of the aspect ration) or to one of those:
 # '4:3','16:9','16:10','2.21:1','2.35:1','2.39:1' to play in window
 # (you can also add one additional value here):
-videomode = 'min'
+videomode = 'auto'
 # Set the following to "True" for simple mode (no window resizing, moving etc. while playing video);
 # must be set to True for older omxplayer versions
 #GARRETT WAS HERE!
