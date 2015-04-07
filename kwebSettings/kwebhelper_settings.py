@@ -78,8 +78,8 @@ mimetypes = []
 # Set the following to "False" to use omxplayer for video without starting a terminal first
 # (if omxplayerGUI is not used)
 #GARRETT WAS HERE!
-omxplayer_in_terminal_for_video = True
-#omxplayer_in_terminal_for_video = False
+#omxplayer_in_terminal_for_video = True
+omxplayer_in_terminal_for_video = False
 # Set the following to "False" to use omxplayer for audio without starting a terminal first
 # (if omxaudioplayer is not used)
 omxplayer_in_terminal_for_audio = True
