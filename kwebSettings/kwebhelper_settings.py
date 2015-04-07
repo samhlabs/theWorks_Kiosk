@@ -191,8 +191,8 @@ kill_omxplayer = True
 mimetypes = []
 # normally omxplayer is started from a terminal (xterm), to clear the screen and get full keyboard control
 # Set the following to "False" to use omxplayer without starting a terminal first
-omxplayer_in_terminal_for_video = True
-#omxplayer_in_terminal_for_video = False
+#omxplayer_in_terminal_for_video = True
+omxplayer_in_terminal_for_video = False
 omxplayer_in_terminal_for_audio = True
 #omxplayer_in_terminal_for_audio = False
 
