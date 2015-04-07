@@ -41,7 +41,7 @@ check_desktop = True
 #check_desktop = False
 # Direct commands will be executed without starting a terminal first.
 # Use it for background commands or programs with a GUI that are not desktop programs or if check_desktop is set to "False"
-direct_commands = ['kwebhelper.py','omxplayergui.py','kwebhelper_set.py','omxplayer','gksudo','xterm']
+direct_commands = ['kwebhelper.py','omxplayergui.py','kwebhelper_set.py','omxplayer','gksudo','xterm','startOMX.sh']
 # Preferred terminal to run commands in, must be set ('xterm' or 'lxterminal')
 preferred_terminal = 'lxterminal'
 #preferred_terminal = 'xterm'
