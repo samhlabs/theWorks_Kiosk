@@ -41,7 +41,7 @@ check_desktop = True
 #check_desktop = False
 # Direct commands will be executed without starting a terminal first.
 # Use it for background commands or programs with a GUI that are not desktop programs or if check_desktop is set to "False"
-direct_commands = ['kwebhelper.py','omxplayergui.py','kwebhelper_set.py','omxplayer','gksudo','xterm','startOMX.sh']
+direct_commands = ['kwebhelper.py','omxplayergui.py','kwebhelper_set.py','omxplayer','gksudo','xterm']
 # Preferred terminal to run commands in, must be set ('xterm' or 'lxterminal')
 preferred_terminal = 'lxterminal'
 #preferred_terminal = 'xterm'
@@ -80,8 +80,8 @@ mimetypes = []
 # Set the following to "False" to use omxplayer for video without starting a terminal first
 # (if omxplayerGUI is not used)
 #GARRETT WAS HERE!
-omxplayer_in_terminal_for_video = True
-#omxplayer_in_terminal_for_video = False
+#omxplayer_in_terminal_for_video = True
+omxplayer_in_terminal_for_video = False
 # Set the following to "False" to use omxplayer for audio without starting a terminal first
 # (if omxaudioplayer is not used)
 #omxplayer_in_terminal_for_audio = True
