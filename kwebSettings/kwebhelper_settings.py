@@ -57,9 +57,9 @@ run_as_script = False
 # <br><a name="1"></a><big><b>GENERAL OMXPLAYER AUDIO VIDEO OPTIONS</b></big>
 # Options for omxplayer to be used when playing video
 #GARRETT WAS HERE!
-omxoptions = ['--win','282 0 1600 900']
+omxoptions = ['hdmi','-o','--win','282 0 1600 900']
 #for selecting the sound output, uncomment one of these:
-omxoptions = ['hdmi','-o']
+#omxoptions = ['hdmi','-o']
 #omxoptions = ['-o','local']
 #more options are also possible of course
 # Options for omxplayer to be used when playing audio
