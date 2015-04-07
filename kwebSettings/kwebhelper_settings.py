@@ -100,8 +100,8 @@ useVLC = False
 useAudioplayer = True
 # Use GUI for playing videos
 #GARRETT WAS HERE!
-useVideoplayer = False
-#useVideoplayer = True
+#useVideoplayer = False
+useVideoplayer = True
 #WHEN useVideoplayer IS SET TO TRUE FOR SOME REASON IT DOES NOT PLAY VIDEO
 # Volume setting when starting omxplayerGUI ranging from -20 to 4 ( -60 to +12 db)
 defaultaudiovolume = 50
