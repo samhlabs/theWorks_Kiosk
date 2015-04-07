@@ -136,8 +136,8 @@ videomode = 'full'
 # Set the following to "True" for simple mode (no window resizing, moving etc. while playing video);
 # must be set to True for older omxplayer versions
 #GARRETT WAS HERE!
-freeze_window = True
-#freeze_window = False
+#freeze_window = True
+freeze_window = False
 # Get aspect ratio in background, if True (if videomode not one of 'auto', 'full' or 'refresh'),
 # costs some processing power and even may block or crash the system, especially with large AVI files,
 # therefore disabled by default. Use it with care.
