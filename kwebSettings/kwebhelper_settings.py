@@ -70,6 +70,8 @@ omx_livetv_options = ['--live']
 live_tv = []
 #like this:
 #live_tv = ['http://192.168.0.5:9082']
+#Garrett added this below
+kill_omxplayer = True
 
 # Mimetypes: if given, this will restrict what omxplayer will be given to play.
 mimetypes = []
@@ -85,7 +87,6 @@ omxplayer_in_terminal_for_video = False
 omxplayer_in_terminal_for_audio = True
 #omxplayer_in_terminal_for_audio = False
 #Garrett added this below
-kill_omxplayer = True
 
 # The following list will be used, to detect audio files, especially in m3u playlists
 audioextensions = ['mp3','aac','flac','wav','wma','cda','ogg','ogm','ac3','ape']
