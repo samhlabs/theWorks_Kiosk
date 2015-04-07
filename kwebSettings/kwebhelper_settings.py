@@ -1,4 +1,4 @@
-"""#!/usr/bin/env python
+#!/usr/bin/env python
 
 # Helper settings file for kweb's (Minimal Kiosk Browser) helper scripts
 # kwebhelper.py and omxplayergui.py
@@ -57,7 +57,7 @@ run_as_script = False
 # <br><a name="1"></a><big><b>GENERAL OMXPLAYER AUDIO VIDEO OPTIONS</b></big>
 # Options for omxplayer to be used when playing video
 #GARRETT WAS HERE!
-omxoptions = ['hdmi','-o','--win','282 0 1600 900']
+omxoptions = ['-o','hdmi','--win','282 0 1600 900']
 #for selecting the sound output, uncomment one of these:
 #omxoptions = ['hdmi','-o']
 #omxoptions = ['-o','local']
@@ -84,6 +84,8 @@ omxplayer_in_terminal_for_video = False
 # (if omxaudioplayer is not used)
 omxplayer_in_terminal_for_audio = True
 #omxplayer_in_terminal_for_audio = False
+#Garrett added this below
+kill_omxplayer = True
 
 # The following list will be used, to detect audio files, especially in m3u playlists
 audioextensions = ['mp3','aac','flac','wav','wma','cda','ogg','ogm','ac3','ape']
@@ -104,7 +106,7 @@ useVideoplayer = False
 #useVideoplayer = True
 #WHEN useVideoplayer IS SET TO TRUE FOR SOME REASON IT DOES NOT PLAY VIDEO
 # Volume setting when starting omxplayerGUI ranging from -20 to 4 ( -60 to +12 db)
-defaultaudiovolume = 50
+defaultaudiovolume = 0
 # Start playing the first (or only) file automatically
 autoplay = True
 # Close the GUI if the last (or only) file has been played to the end
@@ -156,6 +158,7 @@ youtube_dl_options = []
 #youtube_dl_options = ['-f','37/22/18']
 # Special omxplayer options for web video
 youtube_omxoptions = []
+
 """
 #!/usr/bin/env python
 
@@ -277,3 +280,4 @@ youtube_omxoptions = []
 #youtube_omxoptions = omxoptions
 
 ### end of global settings
+"""
