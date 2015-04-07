@@ -84,8 +84,8 @@ mimetypes = []
 omxplayer_in_terminal_for_video = False
 # Set the following to "False" to use omxplayer for audio without starting a terminal first
 # (if omxaudioplayer is not used)
-omxplayer_in_terminal_for_audio = True
-#omxplayer_in_terminal_for_audio = False
+#omxplayer_in_terminal_for_audio = True
+omxplayer_in_terminal_for_audio = False
 #Garrett added this below
 
 # The following list will be used, to detect audio files, especially in m3u playlists
