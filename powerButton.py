@@ -67,5 +67,5 @@ GPIO.cleanup() #clean up the GPIO python pin library
 
 
 #  ===============  #
-#  [   S A M H   ]  #
+# |    S A M H    | #
 #  ===============  #
