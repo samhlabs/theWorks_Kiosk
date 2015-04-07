@@ -141,7 +141,8 @@ freeze_window = False
 # Get aspect ratio in background, if True (if videomode not one of 'auto', 'full' or 'refresh'),
 # costs some processing power and even may block or crash the system, especially with large AVI files,
 # therefore disabled by default. Use it with care.
-get_DAR = False
+#Garrett was here and set to true
+get_DAR = True
 # If the following is set to 'True', all control elements are hidden (can be enabled later on with ALT+h)
 #GARRETT WAS HERE!!
 #hide_controls = True
