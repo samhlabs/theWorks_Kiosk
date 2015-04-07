@@ -59,7 +59,7 @@ run_as_script = False
 #GARRETT WAS HERE!
 omxoptions = ['--win','282 0 1600 900']
 #for selecting the sound output, uncomment one of these:
-omxoptions = ['-o','hdmi']
+omxoptions = ['hdmi','-o']
 #omxoptions = ['-o','local']
 #more options are also possible of course
 # Options for omxplayer to be used when playing audio
@@ -104,7 +104,7 @@ useVideoplayer = False
 #useVideoplayer = True
 #WHEN useVideoplayer IS SET TO TRUE FOR SOME REASON IT DOES NOT PLAY VIDEO
 # Volume setting when starting omxplayerGUI ranging from -20 to 4 ( -60 to +12 db)
-defaultaudiovolume = 0
+defaultaudiovolume = 50
 # Start playing the first (or only) file automatically
 autoplay = True
 # Close the GUI if the last (or only) file has been played to the end
