@@ -51,8 +51,8 @@ sudo_requires_password = True
 #sudo_requires_password = False
 # set the following to "True", if you want to run all commands from a script file.
 # may help with complex command links, but will require more disk accesses.
-run_as_script = False
-#run_as_script = True
+#run_as_script = False
+run_as_script = True
 
 # <br><a name="1"></a><big><b>GENERAL OMXPLAYER AUDIO VIDEO OPTIONS</b></big>
 # Options for omxplayer to be used when playing video
