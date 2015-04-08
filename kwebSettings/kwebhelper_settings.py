@@ -47,8 +47,8 @@ preferred_terminal = 'lxterminal'
 #preferred_terminal = 'xterm'
 # Set the following to False, if you don't want to run 'sudo' commands inside a terminal,
 # but only if a password is not required (you may break command execution otherwise):
-sudo_requires_password = True
-#sudo_requires_password = False
+#sudo_requires_password = True
+sudo_requires_password = False
 # set the following to "True", if you want to run all commands from a script file.
 # may help with complex command links, but will require more disk accesses.
 #run_as_script = False
