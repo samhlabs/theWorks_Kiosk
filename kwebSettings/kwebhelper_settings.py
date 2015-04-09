@@ -37,8 +37,8 @@ uget_options = ['--quiet']
 
 # <br><big><b>COMMAND EXECUTION OPTIONS (kwebhelper)</b></big>
 # If this is set to "True", all Desktop (GUI) programs will be executed without starting a terminal first
-check_desktop = True
-#check_desktop = False
+#check_desktop = True
+check_desktop = False
 # Direct commands will be executed without starting a terminal first.
 # Use it for background commands or programs with a GUI that are not desktop programs or if check_desktop is set to "False"
 direct_commands = ['kwebhelper.py','omxplayergui.py','kwebhelper_set.py','omxplayer','gksudo','xterm','startOMX.sh','stopOMX.sh']
@@ -51,8 +51,8 @@ preferred_terminal = 'lxterminal'
 sudo_requires_password = False
 # set the following to "True", if you want to run all commands from a script file.
 # may help with complex command links, but will require more disk accesses.
-run_as_script = False
-#run_as_script = True
+#run_as_script = False
+run_as_script = True
 
 # <br><a name="1"></a><big><b>GENERAL OMXPLAYER AUDIO VIDEO OPTIONS</b></big>
 # Options for omxplayer to be used when playing video
