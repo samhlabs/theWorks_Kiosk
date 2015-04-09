@@ -70,8 +70,6 @@ omx_livetv_options = ['--live']
 live_tv = []
 #like this:
 #live_tv = ['http://192.168.0.5:9082']
-#Garrett added this below
-kill_omxplayer = True
 
 # Mimetypes: if given, this will restrict what omxplayer will be given to play.
 mimetypes = []
@@ -142,11 +140,11 @@ freeze_window = False
 # costs some processing power and even may block or crash the system, especially with large AVI files,
 # therefore disabled by default. Use it with care.
 #Garrett was here and set to true
-get_DAR = True
+get_DAR = False
 # If the following is set to 'True', all control elements are hidden (can be enabled later on with ALT+h)
 #GARRETT WAS HERE!!
-#hide_controls = True
-hide_controls = False
+hide_controls = True
+#hide_controls = False
 
 # <br><big><b>ONLINE VIDEO OPTIONS</b></big>
 # Options for pages containing video, either HTML5 video tags or all websites supported by youtube-dl.
