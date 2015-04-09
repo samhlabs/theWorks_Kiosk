@@ -1,4 +1,4 @@
 #!/bin/bash
 
-xdotool key plus | grep 'omxplayer'
+sudo echo -n + > ~/bin/omxfifo
 exit 0
