@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo echo -n + > ~/bin/omxfifo
+echo "+"
 exit 0
