@@ -1,4 +1,4 @@
 #!/bin/bash
 
-xdotool search --name omxplayer key +
+xdotool key plus | grep 'omxplayer'
 exit 0
