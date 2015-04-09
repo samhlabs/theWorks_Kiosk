@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo q > /bin/omxfifo
+echo -n "+" > /bin/omxfifo
 exit 0
