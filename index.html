@@ -33,21 +33,36 @@
             bottom:0;
             height:100%;
             overflow:hidden;
-            background:#52a691;
+            background:#21252b;
             text-align:center;
+            opacity:.9;
         }
 
         .buttons-wrap a{
             display:block;
             width:100%;
-            padding:51px;
-            border-bottom:2px solid #3a8572;
+            padding:52px;
+            border-bottom:2px solid #555;
             text-decoration:none;
-            color:#fff;
+            color:#f1f1f1;
             font-family:sans-serif;
-            font-size:22px;
+            font-size:20px;
             font-weight:700;
             letter-spacing:3px;
+            text-transform:uppercase;
+        }
+
+        .background{
+            position:absolute;
+            top:0;
+            left:300px;
+            right:0;
+            bottom:0;
+
+            overflow:hidden;
+            background:url('topvid.jpg');
+            background-size:100% 100%;
+            background-size:cover;
         }
 
 
@@ -56,7 +71,7 @@
         
     </head>
 
-    <body background="images/Building_BKG.jpg">
+    <body>
 
 
         <div class="buttons-wrap">
@@ -71,9 +86,13 @@
 
             <a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/volumeDown.sh">Vol -</a>
 
-            <a href="file:///homepage.html?kbd=q">R</a>
+            <a href="file:///homepage.html?kbd=q">Reload</a>
 
             <a href="file:///homepage.html?kbd=r">Refresh</a>
+
+        </div>
+
+        <div class="background">
 
         </div>
 
