@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+
         <meta charset="utf-8">
         <title>Boiler</title>
 
@@ -13,32 +14,65 @@
         <meta http-equiv="x-ua-compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
+        <style>
+
+
+        *{ 
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .buttons-wrap{
+            width:300px;
+            position:absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            height:100%;
+            overflow:hidden;
+            background:#444;
+            text-align:center;
+        }
+
+        .buttons-wrap a{
+            display:block;
+            width:100%;
+            padding:54px;
+            border-bottom:1px solid #666;
+            text-decoration:none;
+            color:#fff;
+            font-family:sans-serif;
+            font-size:18px;
+        }
+
+
+        </style>
+
         
     </head>
 
     <body background="images/Building_BKG.jpg">
 
 
-        <div id="content">
+        <div class="buttons-wrap">
             
+            <a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/startOMX.sh%20&">PLAY</a>
 
+            <a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/startCCOMX.sh%20&">PLAY(CC)</a>
 
-<br/><br/><br/><br/>
+            <a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/stopOMX.sh%202>/dev/null%20&">STOP</a>
 
-<h1> <i>WHATEVER</i></h1>
-<a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/startOMX.sh%20&"><button>[    PLAY    ]</button></a><br/>
-<a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/startCCOMX.sh%20&"><button>[  PLAY(CC)  ]</button></a>
-<br/><br/><br/><br/>
-<a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/stopOMX.sh%202>/dev/null%20&"><button>[    STOP    ]</button></a>
-<br/><br/><br/><br/>
-<a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/volumeUp.sh"><button>[   VOL +   ]</button></a><br/>
-<a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/volumeDown.sh"><button>[   VOL -   ]</button></a>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<a href="file:///homepage.html?kbd=q"><button>[R]</button></a>
-<a href="file:///homepage.html?kbd=r"><button>[Re]</button></a>
+            <a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/volumeUp.sh">VOL +</a>
+
+            <a href="file:///homepage.html?cmd=/media/Git/theWorks_Kiosk/volumeDown.sh">VOL -</a>
+
+            <a href="file:///homepage.html?kbd=q">R</a>
+
+            <a href="file:///homepage.html?kbd=r">Refresh</a>
 
         </div>
 
     </body>
+
 </html>
