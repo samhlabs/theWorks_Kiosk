@@ -647,7 +647,7 @@ p {
   width: 100%;
   height: 100%; }
 
-.controls-wrapper {
+.controls {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -658,7 +658,7 @@ p {
   height: 100%;
   width: 300px;
   background: #21252b; }
-  .controls-wrapper a {
+  .controls a {
     display: block;
     width: 100%;
     padding: 65px 40px;
