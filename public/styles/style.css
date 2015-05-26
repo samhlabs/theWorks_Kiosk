@@ -647,48 +647,6 @@ p {
   width: 100%;
   height: 100%; }
 
-.caro-slide {
-  width: 100%;
-  overflow: hidden; }
-
-.info-wrapper-left {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 50%;
-  padding: 0 20px;
-  height: 100%;
-  padding: 0;
-  display: table; }
-  .info-wrapper-left .info-wrapper-inner, .info-wrapper-left .info-wrapper-inner-top {
-    padding: 0 200px;
-    color: #fff;
-    height: 50%;
-    display: inline-block;
-    overflow: hidden; }
-  .info-wrapper-left .info-wrapper-inner {
-    background: #fff;
-    width: 100%; }
-  .info-wrapper-left .info-wrapper-inner-top {
-    overflow: scroll;
-    background: #382731; }
-    .info-wrapper-left .info-wrapper-inner-top h1 {
-      color: #fff; }
-
-.buttons-wrapper-right {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline;
-  float: left;
-  width: 33.33333%;
-  padding: 0 20px;
-  padding: 0;
-  float: right;
-  height: 100%; }
-
 .controls-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -712,6 +670,48 @@ p {
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase; }
+
+.caro-slide {
+  width: 100%;
+  overflow: hidden; }
+
+.info-wrapper-left {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+  height: 100%;
+  padding: 0;
+  display: table; }
+  .info-wrapper-left .info-wrapper-inner, .info-wrapper-left .info-wrapper-inner-top {
+    padding: 0 200px;
+    color: #fff;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden; }
+  .info-wrapper-left .info-wrapper-inner {
+    background: #fff;
+    width: 100%; }
+  .info-wrapper-left .info-wrapper-inner-top {
+    overflow: scroll;
+    background: #382731; }
+    .info-wrapper-left .info-wrapper-inner-top h1 {
+      color: #fff; }
+
+.buttons-wrapper-right {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  width: 33.33333%;
+  padding: 0 20px;
+  padding: 0;
+  float: right;
+  height: 100%; }
 
 .button-wrap {
   -webkit-box-sizing: border-box;
