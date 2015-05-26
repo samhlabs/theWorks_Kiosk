@@ -48,9 +48,9 @@
 
 
 
-<div class="info-wrapper-left">
+<div id="scroll1" class="info-wrapper-left">
 
-	<div class="info-wrapper-inner-top">
+	<div id="scroll2" class="info-wrapper-inner-top">
 
 		<div class="push">
 			<img src="images/exib.png"/>
@@ -105,22 +105,12 @@
         <script src="public/scripts/scripts.min.js"></script>
         <script src="public/scripts/lightslider.min.js"></script>
 
-             <script>
-                $(document).ready(function() {
-                    $('.caro-slide').lightSlider({
-                        item:1,
-                        loop:true,
-                        slideMove:2,
-                        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-                        speed:400,
-                        useCSS: true,
-                        controls: false,
-                        pager:false,
-                        slideMargin:15,
-                    });  
-                 });
+<script type="text/javascript" charset="utf-8">
+                $('#scroll1').kinetic();
+                });
+                $('#scroll2').kinetic();
+                });
             </script>
-
 
     </body>
 </html>
